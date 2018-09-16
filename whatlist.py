@@ -3,7 +3,7 @@ import time
 
 search_string = "what"
 
-with open('catalog.csv', 'rt') as f, open('whatlist.csv', 'wt') as g:
+with open('catalog.csv', 'rb') as f, open('whatlist.csv', 'wb') as g:
     reader = csv.DictReader(f)
     c1, c2, c3, *_ = reader.fieldnames
 
