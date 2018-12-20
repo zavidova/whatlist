@@ -19,6 +19,8 @@ nav {
   position: relative;
   display: inline-block;
   top:0;
+  /*fonts*/
+
 }
 
 nav ul li {
@@ -55,6 +57,7 @@ nav a {
   position: relative;
   display: inline-block;
   padding-top: 20px;
+  /*fonts*/
 }
 
 /*csv table styling*/
