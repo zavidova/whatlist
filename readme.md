@@ -2,8 +2,11 @@
 
 *this is the what list*
 
-	
-	
+For index.html to work you need to use a server:
+
+
+
+
 	    \_/
 	     (* *)
 	    __)#(__
@@ -39,5 +42,4 @@
 	      (--/\--)    \__/
 	      _)(  )(_
 	     `---''---`
-	
-	
+

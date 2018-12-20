@@ -1,0 +1,17 @@
+body {
+font-size: 12px;
+color: white;
+background-color: black;
+}
+
+table {
+
+border: 2px black solid;
+
+
+}
+
+td {
+  border: 1px solid white;
+  padding: 5px;
+}
