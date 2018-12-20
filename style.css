@@ -1,8 +1,64 @@
+
+
+
+/* General properties*/
+
 body {
 font-size: 12px;
 color: white;
 background-color: black;
+overflow: hidden;
 }
+
+
+
+/*menu*/
+nav {
+  width: 100%;
+  background-color:#e6e6fa;
+  position: relative;
+  display: inline-block;
+  top:0;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+#home {
+  float: left;
+}
+
+#about {
+  margin: 0 auto;
+}
+
+#contribute {
+  float: right;
+}
+
+
+nav a {
+  color:black;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
+
+/*this is the id which holds the content*/
+
+#viz {
+  overflow: auto;
+  width:100%;
+  max-height: 100vh;
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+/*csv table styling*/
+
 
 table {
 
