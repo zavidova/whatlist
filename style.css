@@ -4,7 +4,7 @@
 /* General properties*/
 
 body {
-font-size: 12px;
+
 }
 
 
@@ -13,9 +13,9 @@ font-size: 12px;
 
 nav {
   width: 100%;
-  background-color:#e6e6fa;
-  position: fixed;
-  display: inline-block;
+  background-color:white;
+  /*position: fixed;
+  display: inline-block;*/
   top:0;
   /*fonts*/
 
@@ -23,9 +23,9 @@ nav {
 
 
 nav ul li {
-  display:inline-block;
+  /*display:inline-block;*/
 }
-
+/*
 #home {
   float: left;
 }
@@ -37,39 +37,19 @@ nav ul li {
 #contribute {
   float: right;
 }
-
+*/
 
 nav a {
   color:black;
-  display:block;
+/*  display:block;*/
   text-decoration: none;
   padding:20px 30px;
  }
 
-
-/*this is the id which holds the content*/
-/*
-#viz {
-
-  width:100%;
-  max-height: 100vh;
-
-  padding-top: 20px;
-  /*fonts*/ /*
-}*/
-
-/*csv table styling*/
+/*end menu*/
 
 
-table {
+/*csv styling*/
+table {border: 2px solid;}
 
-border: 2px black solid;
-
-
-
-}
-
-td {
-  border: 1px solid black;
-  padding: 5px;
-}
+td {border: 1px solid; padding: 5px;}
