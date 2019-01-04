@@ -5,23 +5,22 @@
 
 body {
 font-size: 12px;
-color: white;
-background-color: black;
-overflow: hidden;
 }
 
 
 
 /*menu*/
+
 nav {
   width: 100%;
   background-color:#e6e6fa;
-  position: relative;
+  position: fixed;
   display: inline-block;
   top:0;
   /*fonts*/
 
 }
+
 
 nav ul li {
   display:inline-block;
@@ -49,16 +48,15 @@ nav a {
 
 
 /*this is the id which holds the content*/
-
+/*
 #viz {
-  overflow: auto;
+
   width:100%;
   max-height: 100vh;
-  position: relative;
-  display: inline-block;
+
   padding-top: 20px;
-  /*fonts*/
-}
+  /*fonts*/ /*
+}*/
 
 /*csv table styling*/
 
@@ -68,9 +66,10 @@ table {
 border: 2px black solid;
 
 
+
 }
 
 td {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 5px;
 }
