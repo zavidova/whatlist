@@ -1,5 +1,12 @@
 
+/*adding fonts here*/
 
+
+
+@font-face {
+  font-family: 'Jost';
+  src: url('Jost-300-Light.otf'); /* IE9 Compat Modes */
+}
 
 /* General properties*/
 
@@ -12,12 +19,22 @@ font-family: Helvetica, Arial, serif;
 /*menu*/
 
 
+ul {
+
+
+}
+
+
 nav {
   width: 100%;
   position: fixed;
   display: inline-block;
   top:0;
-  border-bottom: 2px solid black;
+  left: 0;
+  background-color: none;
+  background-color: white;
+  font-family:'Jost', Helvetica, sans-serif;
+
   /*fonts*/
 }
 
@@ -26,28 +43,22 @@ nav ul li {
 display:inline-block;
 }
 
-ul {
-    display: block;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
 
 
 
 #home {
   float: left;
+  padding-left:20px;
 }
 
 #about {
   margin: 0 auto;
+  padding-left:50px;
 }
 
 #contribute {
   float: right;
+  padding-right:40px;
 }
 
 
@@ -55,7 +66,8 @@ nav a {
   color:black;
   display:block;
   text-decoration: none;
-  padding:20px 30px;
+  /*padding:20px 30px;*/
+  font-size:1.75em;
  }
 
 /*end menu*/
@@ -66,10 +78,29 @@ nav a {
 #viz {
   overflow: scroll;
   height: 100vh;
-  margin-top: 7.5em;
+  padding-top: 100px;
+  width: 100%;
+
 }
 
 
-table {border: 2px solid;}
+table {
+  width: 80%;
+  margin: 0 auto;
+    padding-bottom: 200px;
+    border-spacing: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
 
-td {border: 1px solid; padding: 5px;}
+
+  }
+/*first row of the table*/
+
+tr:first-child {
+background-color: #efeef4;
+
+  }
+
+
+td {border: 1px solid; padding:10px;
+}
