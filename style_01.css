@@ -1,0 +1,75 @@
+
+
+
+/* General properties*/
+
+body {
+width: 100%;
+overflow: hidden;
+height: 100%;
+font-family: Helvetica, Arial, serif;
+}
+/*menu*/
+
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  top:0;
+  border-bottom: 2px solid black;
+  /*fonts*/
+}
+
+
+nav ul li {
+display:inline-block;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+
+#home {
+  float: left;
+}
+
+#about {
+  margin: 0 auto;
+}
+
+#contribute {
+  float: right;
+}
+
+
+nav a {
+  color:black;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
+/*end menu*/
+
+
+/*csv styling*/
+
+#viz {
+  overflow: scroll;
+  height: 100vh;
+  margin-top: 7.5em;
+}
+
+
+table {border: 2px solid;}
+
+td {border: 1px solid; padding: 5px;}

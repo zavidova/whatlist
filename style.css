@@ -4,6 +4,7 @@
 /* General properties*/
 
 body {
+width: 100%;
 
 }
 
@@ -50,6 +51,8 @@ nav a {
 
 
 /*csv styling*/
+
+
 table {border: 2px solid;}
 
 td {border: 1px solid; padding: 5px;}

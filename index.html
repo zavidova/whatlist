@@ -4,7 +4,7 @@
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="d3.min.js?v=3.2.8"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_01.css">
 
 
 </head>
@@ -30,17 +30,19 @@
 
 -->
 
+<div id="viz">
+</div>
 
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 
-<div id="viz">
+
         <script type="text/javascript"charset="utf-8">
             d3.text("data.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
-                var container = d3.select("body")
+                var container = d3.select("#viz")
                     .append("table")
 
                     .selectAll("tr")
@@ -53,7 +55,7 @@
                         .text(function(d) { return d; });
             });
         </script>
-</div>
+
 
 </body>
 </html>
