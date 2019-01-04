@@ -3,8 +3,8 @@ import time
 
 import re
 
-songs = open("2.csv", "r")
-what = open("part_02.csv", "w")
+songs = open("1.csv", "r")
+what = open("part_01.csv", "w")
 
 for line in songs:
     if re.match("(.*)(W|w)hat(.*)", line):
