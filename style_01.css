@@ -11,10 +11,15 @@
 /* General properties*/
 
 body {
+/*background  image tryouts, change number 1-3 for different ***starss*** */  
+/*background-image: url("starry_star_bg3.gif"); */
 width: 100%;
 overflow: hidden;
 height: 100%;
 font-family: Helvetica, Arial, serif;
+/*make everything centered*/
+margin: auto;
+width: 80%;
 }
 /*menu*/
 
