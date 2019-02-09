@@ -37,10 +37,10 @@
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
-
+<!--replaced data.csv with sources/all_whats.csv to work with the original source -->
 
         <script type="text/javascript"charset="utf-8">
-            d3.text("data.csv", function(data) {
+            d3.text("sources/all_whats.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#viz")
