@@ -8,7 +8,33 @@
 
 
 </head>
-<body>
+ 
+ <!-- bodytag with loading the random sound script onload -->
+
+<body onload="playSounds()">
+
+    <!--Script for loading sound after page sound-->
+
+		<div id="element"></div>
+		<script>
+			var sounds = ["http://localhost:3000/whatis4.mp3","http://localhost:3000/whatis5.mp3"],
+		    oldSounds = [];
+
+		var playSounds = function () {
+		    var index = Math.floor(Math.random() * (sounds.length)),
+		        thisSound = sounds[index];
+
+		        oldSounds.push(thisSound);
+		        sounds.splice(index, 1);
+
+		        if (sounds.length < 1) {
+		            sounds = oldSounds.splice(0, oldSounds.length);
+		        }
+
+		        $("#element").html("<audio autoplay><source src=\"" + thisSound + "\" type=\"audio/mpeg\"><embed src=\"" + thisSound + "\" hidden=\"true\" autostart=\"true\" /></audio>");
+		}
+		</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
