@@ -138,9 +138,9 @@ nav a {
 	z-index: 100000;
 	background-color: white;
 	position: absolute;
-	width: 70%;
-	margin-right: 15%;
-	margin-left: 15%;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
 	margin-top: 100px;
 	height: 90%;
 
@@ -159,13 +159,15 @@ nav a {
 
 
 table {
-  width: 80%;
+
 
   padding-bottom: 200px;
   border-spacing: 0px;
+  max-width: 100%;
+
   -webkit-border-horizontal-spacing: 0px;
   -webkit-border-vertical-spacing: 0px;
-
+  	  white-space: initial;
   font-family: Helvetica;
   font-size: 0.999em;
   mix-blend-mode: normal;
@@ -189,8 +191,11 @@ td {
 
 	border: 0.01em solid black; 
 	padding:10px;
-	min-width: 100px;
     z-index: 70000;
-	
+    display: table-cell;
+
+}
+
+td: first-child {
 
 }
