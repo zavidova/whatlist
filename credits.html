@@ -28,11 +28,57 @@
 The whatlist wouldn' t be possible without the numerous sources used for compiling this extensive list.
 A complete list of sources can be found here:
   <h2> Karaoke Songbooks </h2>
-Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  <ul>
+Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+<!--add sources/credits_songbooks.csv table -->
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("sources/credits_songbooks.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#viz")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+        </script>
+
+<h2> Practical Sources </h2>
+<!--add sources/credits_tools.csv table -->
+
+<script type="text/javascript"charset="utf-8">
+            d3.text("sources/credits_tools.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#viz")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+        </script>
+
+<!-- old list in ul format
+  <ul>
   <li><a href="http://www.excessskaraoke.com/songbooks.html">Excess songbook</a>  
   <li><a href="http://www.excessskaraoke.com/songbooks.html">karafun catalog (insert link)</a> 
 
-    <h2>
+     -->
 
 
 </body>
