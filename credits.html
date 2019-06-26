@@ -12,15 +12,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Here goes the menu-->
 
+
+
+  <div class="red"></div>
+  <div class="yellow"></div>
+  <div class="lilac"></div>
+
+
 <nav>
 
   <ul>
-   <li id="home"><a href="index.html">Home</a></li>
-   <li id="about"><a href="#">About</a></li>
-    <!-- <li id="contribute"><a href="#">Contribute</a></li> -->
-    <li id="contribute"><a href="#">Submit (but beware...)</a></li>
+   <li id="home"><a href="index.html">HOME</a></li>
+   <li><a href="about.html">ABOUT</a></li>
+   <li id="name">WHATLIST DOT INFO</li>
+   <li><a href="submission.html">SUBMIT</a></li>
+   <li id="credits"><a href="credits.html">CREDITS</a></li>
    </ul>
 </nav>
+
+
+ <div id="wrapper">
+  <div class="contents">
 
 <!-- what-what this is all about-->
     
@@ -31,10 +43,9 @@ A complete list of sources can be found here:
 Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  
 
 
-  <div id="wrapper">
+ 
   <div id="viz">
-  </div>
-  </div>
+ 
   <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <!--add sources/credits_songbooks.csv table -->
@@ -56,9 +67,11 @@ Songs where extracted from numerous songsbooks used in Karaoke bars all around t
                         .text(function(d) { return d; });
             });
         </script>
+      </div>
 
 <h2> Practical Sources </h2>
 <!--add sources/credits_tools.csv table -->
+<div id="viz">
 
 <script type="text/javascript"charset="utf-8">
             d3.text("sources/credits_tools.csv", function(data) {
@@ -77,6 +90,12 @@ Songs where extracted from numerous songsbooks used in Karaoke bars all around t
                         .text(function(d) { return d; });
             });
         </script>
+
+
+
+         </div>
+  </div>
+</div>
 
 <!-- old list in ul format
   <ul>
