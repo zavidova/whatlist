@@ -192,6 +192,9 @@ nav ul li a:hover {
   height: 100vh;
   width: 100%;
   margin: 0 auto;
+    border: 30px solid transparent;
+  border-image:url(dune2borderimg.png) 30 round;
+  background-color: white;
 
 
 
@@ -231,16 +234,20 @@ table{
  /* border: 25px solid transparent;
   border-image:url(dune2borderimg.png) 25 round;*/
 /*=======*/
-  border: 30px solid transparent;
+ /* border: 30px solid transparent;
   border-image:url(dune2borderimg.png) 30 round;
 /*>>>>>>> deb28cc6b3cf77250a0c1dcddd52a7760fc098e7*/
-  z-index: 70000;
+/*  z-index: 70000;*/
 /*border: 0.1em solid black;*/
+border-collapse: collapse;
+
+
 }
 
 
 tr, td {
-  border: 0.1em solid black;
+  border: 0.2em solid black;
+   
 
 }
 /*first row of the table*/
@@ -253,11 +260,12 @@ tr:first-child {
 
 td {
 
-	border: 0.02em solid black;
+
 	padding:10px;
   z-index: 70000;
   display: table-cell;
   margin: 0 auto;
+
 }
 
 td: first-child {
