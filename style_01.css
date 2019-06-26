@@ -194,15 +194,21 @@ margin-right: 10%;
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-    border: 30px solid transparent;
-  border-image:url(dune2borderimg.png) 30 round;
-  background-color: white;
-
-
-
 
 }
 
+
+#viz, #songbooks {
+  border: 30px solid transparent;
+  border-image:url(dune2borderimg.png) 30 round;
+  background-color: white;
+}
+
+
+#songbooks table {
+  width: 100%;
+  
+}
 
 table{
 
@@ -257,7 +263,13 @@ tr, td {
 tr:first-child {
 
 
+ font-weight: bold;
+
   }
+
+td:nth-child(2) {
+
+}
 
 
 td {
@@ -273,4 +285,20 @@ td {
 td: first-child {
 
 }
+
+
+/* styling the texts */
+
+h1, h2, h3, h4, p {
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+p {
+font-size: 1.2em;
+}
+
+
+
+
 
