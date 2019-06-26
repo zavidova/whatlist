@@ -74,7 +74,7 @@ nav {
   z-index: 20;
   font-family: Karaoke, Helvetica, sans-serif;
   border-color: yellow;
-  box-shadow: inset 0px 0px 30px 0px yellow;
+  /*box-shadow: inset 0px 0px 30px 0px yellow;*/
 
 
     /*fonts*/
@@ -91,15 +91,29 @@ nav ul li {
 display: inline-block;
 margin: 0 auto;
 text-align: center;
-
-
-
-
+ -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
+
+
 
 #home {
 	text-align: left;
 	margin-left: -10px;
+
+
+
 }
 
 #credits {
@@ -120,6 +134,10 @@ nav a {
   font-family:Karaoke, Helvetica, sans-serif;
 
  }
+
+nav ul li a:hover {
+    font-size: 3.5em;
+}
 
 
 
