@@ -80,14 +80,33 @@ nav {
     /*fonts*/
 }
 
+nav ul {
+	width: 100%;
+display: flex;
+  justify-content: space-between;
+
+}
 
 nav ul li {
-display:inline-block;
+display: inline-block;
+margin: 0 auto;
+text-align: center;
+
+
 
 
 }
 
+#home {
+	text-align: left;
+	margin-left: -10px;
+}
 
+#credits {
+	text-align: right;
+	margin-right: 80px;
+
+}
 
 
 
@@ -97,9 +116,8 @@ nav a {
   text-decoration: none;
   /*padding:20px 30px;*/
   font-size:2.5em;
-  margin-left: 20px;
-    color:black;
-      font-family:Karaoke, Helvetica, sans-serif;
+  color:black;
+  font-family:Karaoke, Helvetica, sans-serif;
 
  }
 
