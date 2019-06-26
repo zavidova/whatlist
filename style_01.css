@@ -192,6 +192,7 @@ table{
   mix-blend-mode: normal;
   background-color: white;
   /*sexy styling of the table borders*/
+<<<<<<< HEAD
 /*  border: 10px solid transparent;
   padding: 15px;
   -webkit-border-image: url('picframe_border.png') 30 stretch; /* Safari 3.1-5 */
@@ -206,6 +207,10 @@ table{
   border-image: url(dune2borderimg.png) 10 10 10 10 repeat;*/
   border: 25px solid transparent;
   border-image:url(dune2borderimg.png) 25 round;
+=======
+  border: 30px solid transparent;
+  border-image:url(dune2borderimg.png) 30 round;
+>>>>>>> deb28cc6b3cf77250a0c1dcddd52a7760fc098e7
   z-index: 70000;
 /*border: 0.1em solid black;*/
 }
@@ -234,3 +239,4 @@ td {
 td: first-child {
 
 }
+

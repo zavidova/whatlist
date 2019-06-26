@@ -43,33 +43,35 @@ A complete list of sources can be found here:
   <h2> Karaoke Songbooks </h2>
 Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  
 
-
+<table>
+<tbody>
+<tr>
+<td><a href="https://www.karafun.com/karaoke-song-list.html">Karafun Catalogue</a></td>
+<td>The first songbook that made it into our list. Also offered visual inspiration for the styling of this website.
+</td>
+</tr>
+<tr>
+<td>Excesss songbook
+</td>
+<td>HTML-based songbook with search function and odd viewing terminology. Greates thing about it is that it is sorted alphabetically, remarkably starting with "#" as the first letter
+</td>
+</tr>
+<tr>
+<td>cell1_3</td>
+<td>cell2_3</td>
+</tr>
+<tr>
+<td>cell1_4</td>
+<td>cell2_4</td>
+</tr>
+<tr>
+<td>cell1_5</td>
+<td>cell2_5</td>
+</tr>
+</tbody>
+</table>
  
-  <div id="viz">
- 
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-
-<!--add sources/credits_songbooks.csv table -->
-
-        <script type="text/javascript"charset="utf-8">
-            d3.text("sources/credits_songbooks.csv", function(data) {
-                var parsedCSV = d3.csv.parseRows(data);
-
-                var container = d3.select("#viz")
-                    .append("table")
-
-                    .selectAll("tr")
-                        .data(parsedCSV).enter()
-                        .append("tr")
-
-                    .selectAll("td")
-                        .data(function(d) { return d; }).enter()
-                        .append("td")
-                        .text(function(d) { return d; });
-            });
-        </script>
-      </div>
-
+  
 <h2> Practical Sources </h2>
 <!--add sources/credits_tools.csv table -->
 <div id="viz">
