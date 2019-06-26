@@ -4,12 +4,12 @@
 
 
 @font-face {
-  font-family: Karafun;
+  font-family: 'Karafun';
   src: url('fonts/karaoke-of-karafun-bold.ttf'); /* IE9 Compat Modes */
-  font-family: Augustus;
+  /*font-family: Augustus;
   src: url('fonts/Augustus Beveled.ttf');
   font-family: Eat;
-  src: url('fonts/lets eat.ttf');
+  src: url('fonts/lets eat.ttf');*/
 
   
 }
@@ -74,10 +74,8 @@ nav {
   top:0;
   left: 0;
   z-index: 6;
-  font-family: Karafun, sans-serif;
-  /*font-family: 'Karafun';*/
-
-  border-color: yellow;
+  font-family: 'Karafun', Helvetica, sans-serif;
+   border-color: yellow;
   box-shadow: inset 0px 0px 30px 0px yellow;
 
 
@@ -94,28 +92,10 @@ display:inline-block;
 
 
 
-#home {
-  float: left;
-  margin-left:-30px;
-  
-
-}
-
-
-#about {
-  margin: 0 auto;
-  padding-left:50px;
-}
-
-#contribute {
-  float: right;
-  padding-right:40px;
-}
-
 
 nav a {
 
-  display:block;
+  /*display:block;*/
   text-decoration: none;
   /*padding:20px 30px;*/
   font-size:2.5em;
