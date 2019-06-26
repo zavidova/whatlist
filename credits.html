@@ -6,6 +6,7 @@
     <script src="d3.min.js?v=3.2.8"></script>
     <link rel="stylesheet" href="style_01.css">
      <link rel="stylesheet" href="smoke_style.css">
+    <script type="text/javascript" src="background.js"></script>
 
 
 </head>
@@ -43,7 +44,7 @@ A complete list of sources can be found here:
   <h2> Karaoke Songbooks </h2>
 Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  
 
-<table>
+<table style="padding-bottom:10px;">
 <tbody>
 <tr>
 <td><a href="https://www.karafun.com/karaoke-song-list.html">Karafun Catalogue</a></td>
@@ -73,7 +74,7 @@ Songs where extracted from numerous songsbooks used in Karaoke bars all around t
   
 <h2> Practical Sources </h2>
 <!--add sources/credits_tools.csv table -->
-<div id="viz">
+<div id="viz" style="padding-bottom: 10px; max-height: 150px">
 
 <script type="text/javascript"charset="utf-8">
             d3.text("sources/credits_tools.csv", function(data) {
