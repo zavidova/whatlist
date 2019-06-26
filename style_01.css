@@ -192,18 +192,6 @@ table{
   mix-blend-mode: normal;
   background-color: white;
   /*sexy styling of the table borders*/
-/*  border: 10px solid transparent;
-  padding: 15px;
-  -webkit-border-image: url('picframe_border.png') 30 stretch; /* Safari 3.1-5 */
-/*  -o-border-image: url('picframe_border.png') 30 stretch;  Opera 11-12.1
-  border-image: url('picframe_border.png') 30 stretch;*/
-  /*border-style: solid;
-  border-color: transparent;
-  border-width: 5px 5px 5px 5px;*/
-  /*-moz-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
-  -webkit-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
-  -o-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
-  border-image: url(dune2borderimg.png) 10 10 10 10 repeat;*/
   border: 30px solid transparent;
   border-image:url(dune2borderimg.png) 30 round;
   z-index: 70000;
@@ -234,3 +222,4 @@ td {
 td: first-child {
 
 }
+
