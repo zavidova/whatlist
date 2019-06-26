@@ -5,13 +5,11 @@
 
 @font-face {
   font-family: 'Karafun';
-  src: url('fonts/karaoke-of-karafun-bold.ttf'); /* IE9 Compat Modes */
+  src: url('fonts/karaoke-of-karafun-bold.otf'); /* IE9 Compat Modes */
   /*font-family: Augustus;
   src: url('fonts/Augustus Beveled.ttf');
   font-family: Eat;
   src: url('fonts/lets eat.ttf');*/
-
-  
 }
 
 /* General properties*/
@@ -75,7 +73,7 @@ nav {
   left: 0;
   z-index: 6;
   font-family: 'Karafun', Helvetica, sans-serif;
-   border-color: yellow;
+  border-color: yellow;
   box-shadow: inset 0px 0px 30px 0px yellow;
 
 
