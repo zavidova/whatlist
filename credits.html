@@ -36,76 +36,77 @@
  <div id="wrapper">
   <div class="contents">
 
+ <h1>Origins</h1>
 <!-- what-what this is all about-->
-    
-    <h2>Sources & Methods</h2><br>
-The whatlist wouldn' t be possible without the numerous sources used for compiling this extensive list.
+Whatlist.info is created by the members of the board of the Whatlist. 2019, all rights reserved. The lyrics in the songs provided do not neccesarily reflect the personal views of the authors.    
+<h1>Sources & Methods</h1>
+
+The whatlist would not be possible without the numerous sources used for compiling this extensive list.
 A complete list of sources can be found here:
-  <h2> Karaoke Songbooks </h2>
-Songs where extracted from numerous songsbooks used in Karaoke bars all around the world.  
+  <h2> Karaoke Songbooks</h2>
+Songs where extracted from numerous songbooks used in Karaoke bars all around the world.  
 
 <table style="padding-bottom:10px;">
 <tbody>
 <tr>
-<td><a href="https://www.karafun.com/karaoke-song-list.html">Karafun Catalogue</a></td>
-<td>The first songbook that made it into our list. Also offered visual inspiration for the styling of this website.
-</td>
+  <td><a href="https://www.karafun.com/karaoke-song-list.html">Karafun Catalogue</a></td>
+  <td>The first songbook that made it into our list. Also offered visual inspiration for the styling of this website.
+  </td>
 </tr>
 <tr>
-<td><a href="http://www.excessskaraoke.com/songbooks.html">Excesss songbooks</a>
-</td>
-<td> The most resourceful songbook we have used. Very extensive, vver 50 000 titles!
-</td>
+  <td><a href="http://www.excessskaraoke.com/songbooks.html">Excesss songbooks</a>
+  </td>
+  <td> The most resourceful songbook we have used. Very extensive, vver 50 000 titles!
+  </td>
 </tr>
 <tr>
-<td><a href="http://www.karaokesongbook.net">karaokesongbook.net</a></td>
-<td>HTML-based songbook. Greatest thing about it is that it is sorted alphabetically, however remarkably starting with "#" as the first letter</td>
+  <td><a href="http://www.karaokesongbook.net">karaokesongbook.net</a></td>
+  <td>HTML-based songbook. Greatest thing about it is that it is sorted alphabetically, however remarkably starting with "#" as it's first letter.</td>
 </tr>
 <tr>
-<td><a href="https://www.thaiprincess.eu/tp/songbook"> Thai Princess songbook </a>
-</td>
-<td>The songbook of Thai Princess karaoke bar in The Hague. Original inspiration for the whatlist.
-</td>
+  <td><a href="https://www.thaiprincess.eu/tp/songbook"> Thai Princess songbook </a>
+  </td>
+  <td>The songbook of Thai Princess karaoke bar in The Hague. Original inspiration for the whatlist.
+  </td>
 </tr>
+<tr>
+  <td><a href="http://songbookslive.com/">songbookslive.com/</a></td>
+  <td>HTML-based. Extensive database with different songbooks that can be individually loaded. Precise functionality unclear.</td>
+</tr>
+<tr>
+  <td><a href="2012karaokeartist-140831212329-phpapp01.pdf">Karaoke Songbook, three columns</a></td>
+  <td>Unknown author. PDF found on the internet.</td>
 </tr>
 </tbody>
 </table>
  
-  
 <h2> Practical Sources </h2>
+<<<<<<< HEAD
 <!--add sources/credits_tools.csv table -->
 <div id="viz" style="padding-bottom: 10px; max-height: 150px">
 
 <script type="text/javascript"charset="utf-8">
             d3.text("sources/credits_tools.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
-
-                var container = d3.select("#viz")
-                    .append("table")
-
-                    .selectAll("tr")
-                        .data(parsedCSV).enter()
-                        .append("tr")
-
-                    .selectAll("td")
-                        .data(function(d) { return d; }).enter()
-                        .append("td")
-                        .text(function(d) { return d; });
-            });
-        </script>
+=======
+  <table>
+  <tbody>
+  <tr>
+    <td><a href=”https://asciinema.org/a/22761”>Using `tabula-extractor` to liberate tables from their PDF imprisonment</a>
+    </td>
+    <td>Gorgeous short-film explaining how to turn static pdf’s into an editable csv-file. And that without using a single video file! Essential for our hunt on songbooks.
+    </td>
+  </tr>
+  </tbody>
+  </table>
+>>>>>>> 7bfa25d40ddb7d4ed74a10d6c4c82d625032039f
 
 
 
-         </div>
+
+
   </div>
 </div>
-
-<!-- old list in ul format
-  <ul>
-  <li><a href="http://www.excessskaraoke.com/songbooks.html">Excess songbook</a>  
-  <li><a href="http://www.excessskaraoke.com/songbooks.html">karafun catalog (insert link)</a> 
-
-     -->
 
 
 </body>
