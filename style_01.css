@@ -74,7 +74,7 @@ nav {
   z-index: 20;
   font-family: Karaoke, Helvetica, sans-serif;
   border-color: yellow;
-  box-shadow: inset 0px 0px 30px 0px yellow;
+  /*box-shadow: inset 0px 0px 30px 0px yellow;*/
 
 
     /*fonts*/
@@ -91,15 +91,29 @@ nav ul li {
 display: inline-block;
 margin: 0 auto;
 text-align: center;
-
-
-
-
+ -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
+
+
 
 #home {
 	text-align: left;
 	margin-left: -10px;
+
+
+
 }
 
 #credits {
@@ -120,6 +134,10 @@ nav a {
   font-family:Karaoke, Helvetica, sans-serif;
 
  }
+
+nav ul li a:hover {
+    font-size: 3.5em;
+}
 
 
 
@@ -192,8 +210,25 @@ table{
   mix-blend-mode: normal;
   background-color: white;
   /*sexy styling of the table borders*/
+<<<<<<< HEAD
+/*  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url('picframe_border.png') 30 stretch; /* Safari 3.1-5 */
+/*  -o-border-image: url('picframe_border.png') 30 stretch;  Opera 11-12.1
+  border-image: url('picframe_border.png') 30 stretch;*/
+  /*border-style: solid;
+  border-color: transparent;
+  border-width: 5px 5px 5px 5px;*/
+  /*-moz-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
+  -webkit-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
+  -o-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
+  border-image: url(dune2borderimg.png) 10 10 10 10 repeat;*/
+  border: 25px solid transparent;
+  border-image:url(dune2borderimg.png) 25 round;
+=======
   border: 30px solid transparent;
   border-image:url(dune2borderimg.png) 30 round;
+>>>>>>> deb28cc6b3cf77250a0c1dcddd52a7760fc098e7
   z-index: 70000;
 /*border: 0.1em solid black;*/
 }
