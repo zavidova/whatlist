@@ -181,12 +181,12 @@ table{
 
 
   padding-bottom: 200px;
-  border-spacing: 0px;
+  /*border-spacing: 0px;*/
   max-width: 100%;
 
-  -webkit-border-horizontal-spacing: 0px;
-  -webkit-border-vertical-spacing: 0px;
-  	  white-space: initial;
+  /*-webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;*/
+  white-space: initial;
   font-family: Helvetica;
   font-size: 0.999em;
   mix-blend-mode: normal;
@@ -197,19 +197,23 @@ table{
   -webkit-border-image: url('picframe_border.png') 30 stretch; /* Safari 3.1-5 */
 /*  -o-border-image: url('picframe_border.png') 30 stretch;  Opera 11-12.1
   border-image: url('picframe_border.png') 30 stretch;*/
-  border-style: solid;
+  /*border-style: solid;
   border-color: transparent;
-  border-width: 5px 5px 5px 5px;
-  -moz-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
+  border-width: 5px 5px 5px 5px;*/
+  /*-moz-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
   -webkit-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
   -o-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
-  border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
-z-index: 70000;
-border: 0.1em solid black;
+  border-image: url(dune2borderimg.png) 10 10 10 10 repeat;*/
+  border: 30px solid transparent;
+  border-image:url(dune2borderimg.png) 30 round;
+  z-index: 70000;
+/*border: 0.1em solid black;*/
+}
 
 
-
-  }
+tr, td {
+  border: 0.1em solid black;
+}
 /*first row of the table*/
 
 tr:first-child {
