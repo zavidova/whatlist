@@ -164,6 +164,7 @@ nav ul li a:hover {
 
 #wrapper {
 		height: 90%;
+
 }
 
 #wrapper_text {
@@ -180,6 +181,7 @@ nav ul li a:hover {
 	padding-top: 30px;
 	height: 100%;
 	margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 
@@ -192,6 +194,8 @@ nav ul li a:hover {
   margin: 0 auto;
 
 
+
+
 }
 
 
@@ -199,6 +203,7 @@ table{
 
 
   padding-bottom: 200px;
+
   /*border-spacing: 0px;*/
   max-width: 100%;
 
@@ -236,6 +241,7 @@ table{
 
 tr, td {
   border: 0.1em solid black;
+
 }
 /*first row of the table*/
 
@@ -247,11 +253,11 @@ tr:first-child {
 
 td {
 
-	border: 0.01em solid black;
+	border: 0.02em solid black;
 	padding:10px;
-    z-index: 70000;
-    display: table-cell;
-
+  z-index: 70000;
+  display: table-cell;
+  margin: 0 auto;
 }
 
 td: first-child {
