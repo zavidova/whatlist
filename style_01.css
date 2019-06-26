@@ -6,7 +6,7 @@
 @font-face {
   font-family: 'Karafun';
   src: url('fonts/karaoke-of-karafun-bold.ttf'); /* IE9 Compat Modes */
-  src: url('fonts/karaoke-of-karafun-bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/KaraokeofKarafun-Bold.otf'); /* IE9 Compat Modes */
     src: url('fonts/karaoke-of-karafun-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('fonts/karaoke-of-karafun-bold.woff') format('woff'), /* Modern Browsers */
          
