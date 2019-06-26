@@ -204,8 +204,8 @@ table{
   -webkit-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
   -o-border-image: url(dune2borderimg.png) 10 10 10 10 repeat;
   border-image: url(dune2borderimg.png) 10 10 10 10 repeat;*/
-  border: 30px solid transparent;
-  border-image:url(dune2borderimg.png) 30 round;
+  border: 25px solid transparent;
+  border-image:url(dune2borderimg.png) 25 round;
   z-index: 70000;
 /*border: 0.1em solid black;*/
 }
